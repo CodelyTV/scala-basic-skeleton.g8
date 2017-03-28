@@ -1,14 +1,13 @@
 /** ********* PROJECT INFO ******************/
-name := "$name$"
-version := "$version$"
 
-lazy val root = (project in file(".")).
-  settings(
+lazy val root = (project in file("."))
+  .settings(
     inThisBuild(List(
-      organization := "com.example",
-      scalaVersion := "2.12.1"
+      organization := "$organization$",
+      scalaVersion := "$scala_version$"
     )),
-    name := "CodelyTV Scala Bootstrap"
+    name := "$name$",
+    version := "$version$"
   )
 
 
