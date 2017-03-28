@@ -1,15 +1,9 @@
 /** ********* PROJECT INFO ******************/
+name := "$name$"
+version := "$version$"
 
-lazy val root = (project in file("."))
-  .settings(
-    inThisBuild(List(
-      organization := "$organization$",
-      scalaVersion := "$scala_version$"
-    )),
-    name := "$name$",
-    version := "$version$"
-  )
-
+/** ********* PROJECT SETTINGS ******************/
+Configuration.settings
 
 /** ********* PROD DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
