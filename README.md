@@ -51,7 +51,7 @@ We'll try to maintain this project as simple as possible, but Pull Requests are 
 
 ## License
 
-Licensed under CC0 1.0. Please see [License File][link-license] for more information.
+The MIT License (MIT). Please see [License File][link-license] for more information.
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/CodelyTV/scala_bootstrap/master.svg?style=flat-square
