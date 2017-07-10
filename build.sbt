@@ -1,6 +1,6 @@
 lazy val root = (project in file("."))
   .settings(
-    scalaVersion := "2.12.1",
+    scalaVersion := "2.12.2",
     organization := "tv.codely",
     name := "CodelyTV Scala Bootstrap",
     version := "1.0",
