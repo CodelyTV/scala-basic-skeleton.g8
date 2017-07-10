@@ -13,7 +13,6 @@ It could be useful if you want to start from scratch a kata or a little exercise
   * [`README.md`][link-readme] (badges included)
   * [`LICENSE`][link-license]
   * [`build.sbt`][link-build-sbt]
-  * [`scalastyle-config.xml`][link-scalastyle-config]
   * [`.scalafmt.conf`][link-scalafmt-config]
   * [`.gitignore`][link-gitignore]
   * [`.editorconfig`][link-editorconfig]
@@ -24,7 +23,6 @@ It could be useful if you want to start from scratch a kata or a little exercise
 1. Clone this repository `git clone https://github.com/CodelyTV/scala_bootstrap`.
 2. Run [SBT](http://www.scala-sbt.org/) on the project directory `sbt`.
 3. Run the [scalatests](http://www.scalatest.org/) with `t`.
-4. Check the [scalastyle](http://www.scalastyle.org/) in the production code with `s` and use the `ts` command to check the test code style.
 5. Check the [scalaFmt](http://scalafmt.org) with `tf` command to check the code style and apply guidelines with `f`.
 6. Start your project!
 
@@ -32,7 +30,7 @@ It could be useful if you want to start from scratch a kata or a little exercise
 
 There's one Git hook included. It's inside the `doc/hooks` folder and it will run the `prep` SBT task before pushing to any remote.
 
-This `prep` task is intended to run all the checks you consider before pushing. At this very moment, it try to compile and check the code style rules with ScalaStyle and ScalaFmt.
+This `prep` task is intended to run all the checks you consider before pushing. At this very moment, it try to compile and check the code style rules with ScalaFmt.
  
 You can define what this task does just modifying the `prep` task in the `build.sbt` file. We like the approach of just running 1 single SBT task as the hook instead of multiple tasks because it's more efficient (the hook doesn't has to run SBT multiple times), and also because this way we can control the pre push tasks just with the SBT alias defined at the `build.sbt` without altering the hooks.
  
@@ -41,7 +39,7 @@ If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.s
 ## Other programming languages
 
 * [PHP](https://github.com/CodelyTV/php-bootstrap)
-* [Scala](https://github.com/CodelyTV/scala_bootstrap)
+* [Scala](https://github.com/CodelyTV/scala_bootstrap): This other bootstrap is not based in the Gitter8 template system. So you can actually clone the repo and just start coding.
 
 ## About
 
@@ -60,12 +58,11 @@ Licensed under CC0 1.0. Please see [License File][link-license] for more informa
 [link-license]: LICENSE
 [link-travis]: https://travis-ci.org/CodelyTV/scala_bootstrap
 [link-readme]: README.md
-[link-build-sbt]: build.sbt
-[link-scalastyle-config]: scalastyle-config.xml
-[link-scalafmt-config]: .scalafmt.conf
-[link-gitignore]: .gitignore
-[link-editorconfig]: .editorconfig    
-[link-travis-yml]: .travis.yml           
+[link-build-sbt]: blob/master/src/main/g8/build.sbt
+[link-scalafmt-config]: blob/master/src/main/g8/.scalafmt.conf
+[link-gitignore]: blob/master/src/main/g8/.gitignore
+[link-editorconfig]: blob/master/src/main/g8/.editorconfig
+[link-travis-yml]: blob/master/src/main/g8/.travis.yml
 [link-author]: https://github.com/CodelyTV
 [link-contributors]: ../../contributors
 
