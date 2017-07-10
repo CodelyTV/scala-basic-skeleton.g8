@@ -20,11 +20,11 @@ It could be useful if you want to start from scratch a kata or a little exercise
 
 ## How To Start
 
-1. Clone this repository `git clone https://github.com/CodelyTV/scala_bootstrap`.
-2. Run [SBT](http://www.scala-sbt.org/) on the project directory `sbt`.
-3. Run the [scalatests](http://www.scalatest.org/) with `t`.
-5. Check the [scalaFmt](http://scalafmt.org) with `tf` command to check the code style and apply guidelines with `f`.
-6. Start your project!
+1. Install the [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) & [SBT](http://www.scala-sbt.org/) tools
+2. Create your new project: `sbt new codelytv/scala-bootstrap-template.g8`
+3. Done! 🎉🦄🌈
+
+Now you can move to your project's directory, enter inside the SBT shell with the `sbt` command, and run the test example with `test` or `t`.
 
 ## Pre-push Git hook
 
