@@ -1,4 +1,4 @@
-# CodelyTV Scala Bootstrap (base / project skeleton)
+# CodelyTV Scala Bootstrap (g8 template)
  
 [![Software License][ico-license]][link-license]
 [![Build Status][ico-travis]][link-travis]
@@ -19,6 +19,8 @@ It could be useful if you want to start from scratch a kata or a little exercise
   * [`.travis.yml`][link-travis-yml]
 
 ## How To Start
+
+[Video screencast](http://codely.tv/screencasts/scala-sbt-new/) (in Spanish) 
 
 1. Install the [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) & [SBT](http://www.scala-sbt.org/) tools
 2. Create your new project: `sbt new codelytv/scala-bootstrap-template.g8`
