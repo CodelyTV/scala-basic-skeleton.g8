@@ -7,7 +7,7 @@
 
 This is a [Giter8][g8] template intended to serve as a starting point if you want to bootstrap a project in Scala.
  
-It could be useful if you want to start from scratch a kata or a little exercise or project. The idea is that you don't have to worry about the boilerplate, just clone this repo and there you go:
+It could be useful if you want to start a kata, a little exercise or project from scratch. The idea is that you don't have to worry about the boilerplate, just clone this repo and you're ready to go:
 * Latest versions of Scala, SBT and ScalaTest in order to practice with them
 * Best practices applied:
   * [`README.md`][link-readme] (badges included)
@@ -26,7 +26,7 @@ It could be useful if you want to start from scratch a kata or a little exercise
 2. Create your new project: `sbt new codelytv/scala-bootstrap-template.g8`
 3. Done! 🎉🦄🌈
 
-Now you can move to your project's directory, enter inside the SBT shell with the `sbt` command, and run the test example with `test` or `t`.
+You can now move to your project's directory, enter the SBT shell with the `sbt` command, and run the test example with `test` or `t`.
 
 ## Pre-push Git hook
 
@@ -34,7 +34,7 @@ There's one Git hook included. It's inside the `doc/hooks` folder and it will ru
 
 This `prep` task is intended to run all the checks you consider before pushing. At this very moment, it try to compile and check the code style rules with ScalaFmt.
  
-You can define what this task does just modifying the `prep` task in the `build.sbt` file. We like the approach of just running 1 single SBT task as the hook instead of multiple tasks because it's more efficient (the hook doesn't has to run SBT multiple times), and also because this way we can control the pre push tasks just with the SBT alias defined at the `build.sbt` without altering the hooks.
+You can define what this task does modifying the `prep` task in the `build.sbt` file. We like the approach of just running 1 single SBT task as the hook instead of multiple tasks because it's more efficient (the hook doesn't have to run SBT multiple times), and also because this way we can control the pre push tasks with the SBT alias defined at the `build.sbt` without altering the hooks.
  
 If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.sh`.
 
@@ -47,7 +47,7 @@ If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.s
 
 This hopefully helpful utility has been developed by [CodelyTV][link-author] and [contributors][link-contributors].
 
-We'll try to maintain this project as simple as possible, but Pull Requests are welcomed!
+We'll try to maintain this project as simple as possible, but Pull Requests are welcome!
 
 ## License
 
