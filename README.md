@@ -7,7 +7,7 @@
 
 This is a [Giter8][g8] template intended to serve as a starting point if you want to bootstrap a project in Scala.
  
-It could be useful if you want to start a kata, a little exercise or project from scratch. The idea is that you don't have to worry about the boilerplate, just clone this repo and you're ready to go:
+It could be useful if you want to start a kata, a little exercise or project from scratch. The idea is that you don't have to worry about the boilerplate, just run `sbt new codelytv/scala-bootstrap-template.g8` and you're ready to go:
 * Latest versions of Scala, SBT and ScalaTest in order to practice with them
 * Best practices applied:
   * [`README.md`][link-readme] (badges included)
