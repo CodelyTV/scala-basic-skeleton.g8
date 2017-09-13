@@ -5,6 +5,11 @@ version := "$version$"
 /** ********* PROJECT SETTINGS ******************/
 Configuration.settings
 
+/** ********* CONFIGURE CUSTOM PATHS *****************/
+scalaSource in Compile := baseDirectory.value / "/src/main"
+scalaSource in Test := baseDirectory.value / "/src/test"
+resourceDirectory in Compile := baseDirectory.value / "/conf"
+
 /** ********* PROD DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
   "com.github.nscala-time" %% "nscala-time" % "2.16.0",
