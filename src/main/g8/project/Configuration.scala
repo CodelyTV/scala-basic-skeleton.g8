@@ -16,7 +16,6 @@ object Configuration {
       "-feature", // Advise features
       "-unchecked", // More warnings. Strict
       "-Xlint", // More warnings when compiling
-      "-Xfatal-warnings", // Warnings became errors
       "-Ywarn-dead-code",
       "-Ywarn-unused",
       "-Ywarn-unused-import",
