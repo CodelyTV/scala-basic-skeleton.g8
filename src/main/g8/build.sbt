@@ -13,8 +13,8 @@ libraryDependencies ++= Seq(
 
 /** ********* TEST DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest"                   % "3.0.4" % Test,
-  "org.scalamock" %% "scalamock-scalatest-support" % "3.6.0" % Test
+  "org.scalatest" %% "scalatest" % "3.0.4" % Test,
+  "org.scalamock" %% "scalamock" % "4.0.0" % Test
 )
 
 /** ********* COMMANDS ALIASES ******************/
@@ -26,7 +26,7 @@ addCommandAlias("tsf", "testShowFailed")
 addCommandAlias("c", "compile")
 addCommandAlias("tc", "test:compile")
 
-addCommandAlias("f", "scalafmt")      // Format all files according to ScalaFmt
+addCommandAlias("f", "scalafmt") // Format all files according to ScalaFmt
 addCommandAlias("ft", "scalafmtTest") // Test if all files are formatted according to ScalaFmt
 
 addCommandAlias("prep", ";c;tc;ft") // All the needed tasks before running the test
