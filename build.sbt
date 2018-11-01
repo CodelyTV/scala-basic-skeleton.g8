@@ -1,9 +1,9 @@
 lazy val root = (project in file("."))
   .settings(
-    scalaVersion := "2.12.4",
+    scalaVersion := "2.12.7",
     organization := "tv.codely",
     name := "CodelyTV Scala Bootstrap",
-    version := "1.2.0",
+    version := "1.2.1",
     test in Test := {
       val _ = (g8Test in Test).toTask("").value
     },
@@ -11,6 +11,7 @@ lazy val root = (project in file("."))
       "-Xms1024m",
       "-Xmx1024m",
       "-XX:ReservedCodeCacheSize=128m",
+      "-XX:MaxPermSize=256m",
       "-Xss2m",
       "-Dfile.encoding=UTF-8"
     ),

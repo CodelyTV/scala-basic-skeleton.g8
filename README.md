@@ -1,9 +1,9 @@
-# CodelyTV Scala Bootstrap (g8 template)
+# 🚀 CodelyTV Scala Bootstrap (g8 template)
  
 [![Software License][ico-license]][link-license]
 [![Build Status][ico-travis]][link-travis]
  
-## Introduction 
+## ℹ️ Introduction 
 
 This is a [Giter8][g8] template intended to serve as a starting point if you want to bootstrap a project in Scala.
  
@@ -18,7 +18,7 @@ It could be useful if you want to start a kata, a little exercise or project fro
   * [`.editorconfig`][link-editorconfig]
   * [`.travis.yml`][link-travis-yml]
 
-## How To Start
+## ☝️ How To Start
 
 [Video screencast](http://codely.tv/screencasts/scala-sbt-new/) (in Spanish) 
 
@@ -30,7 +30,7 @@ It could be useful if you want to start a kata, a little exercise or project fro
 
 You can now move to your project's directory, enter the SBT shell with the `sbt` command, and run the test example with `test` or `t`.
 
-## Pre-push Git hook
+## 🤽‍ Pre-push Git hook
 
 There's one Git hook included. It's inside the `doc/hooks` folder and it will run the `prep` SBT task before pushing to any remote.
 
@@ -40,23 +40,24 @@ You can define what this task does modifying the `prep` task in the `build.sbt` 
  
 If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.sh`.
 
-## Other programming languages
+## ☕🐘 Other programming languages
 
+* [Java](https://github.com/CodelyTV/java-bootstrap)
 * [PHP](https://github.com/CodelyTV/php-bootstrap)
 * [Scala](https://github.com/CodelyTV/scala_bootstrap): This other bootstrap is not based in the Gitter8 template system. So you can actually clone the repo and just start coding.
 
-## About
+## ❓ About
 
 This hopefully helpful utility has been developed by [CodelyTV][link-author] and [contributors][link-contributors].
 
 We'll try to maintain this project as simple as possible, but Pull Requests are welcome!
 
-## License
+## ⚖️ License
 
 The MIT License (MIT). Please see [License File][link-license] for more information.
 
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/CodelyTV/scala_bootstrap/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/CodelyTV/scala-bootstrap-template.g8/master.svg?style=flat-square
 
 [g8]: http://www.foundweekends.org/giter8/
 [link-license]: LICENSE
