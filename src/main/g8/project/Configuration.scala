@@ -18,7 +18,6 @@ object Configuration {
       "-Xlint", // More warnings when compiling
       "-Ywarn-dead-code",
       "-Ywarn-unused",
-      "-Ywarn-unused-import",
       "-Xcheckinit" // Check against early initialization
     ),
     scalacOptions in run in Compile -= "-Xcheckinit", // Remove it in production because it's expensive
