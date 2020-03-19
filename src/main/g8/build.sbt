@@ -7,14 +7,14 @@ Configuration.settings
 
 /** ********* PROD DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
-  "com.github.nscala-time" %% "nscala-time" % "2.20.0",
-  "com.lihaoyi"            %% "pprint"      % "0.5.3"
+  "com.github.nscala-time" %% "nscala-time" % "2.22.0",
+  "com.lihaoyi"            %% "pprint"      % "0.5.6"
 )
 
 /** ********* TEST DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.5" % Test,
-  "org.scalamock" %% "scalamock" % "4.1.0" % Test
+  "org.scalatest" %% "scalatest" % "3.1.1" % Test,
+  "org.scalamock" %% "scalamock" % "4.4.0" % Test
 )
 
 /** ********* COMMANDS ALIASES ******************/
