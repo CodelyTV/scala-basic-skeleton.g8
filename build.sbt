@@ -1,9 +1,9 @@
 lazy val root = (project in file("."))
   .settings(
-    scalaVersion := "2.13.1",
+    scalaVersion := "2.13.7",
     organization := "tv.codely",
     name := "CodelyTV Scala Bootstrap",
-    version := "1.2.2",
+    version := "1.2.3",
     test in Test := {
       val _ = (g8Test in Test).toTask("").value
     },
