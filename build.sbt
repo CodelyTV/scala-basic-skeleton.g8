@@ -2,7 +2,7 @@ lazy val root = (project in file("."))
   .settings(
     organization := "com.codely",
     name := "Codely Scala Basic Skeleton",
-    version := "1.3.0",
+    version := "1.5.0",
     scriptedLaunchOpts ++= List(
       "-Xms1024m",
       "-Xmx1024m",
