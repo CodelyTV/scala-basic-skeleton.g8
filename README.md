@@ -9,7 +9,7 @@
 </p>
 
 <h1 align="center">
-  🧬⚡ Codely Scala Basic Skeleton (powered by  powered by Giter 8)
+  🧬⚡ Codely Scala Basic Skeleton (powered by Giter 8)
 </h1>
 
 <p align="center">
