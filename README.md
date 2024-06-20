@@ -155,11 +155,11 @@ If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.s
 
 ## ⚖️ License
 
-See [the `LICENSE` file](LICENSE) for more information.
+See [`LICENSE`](LICENSE).
 
 ## 🤝 Contributing
 
-See [the `CONTRIBUTING.md` file](CONTRIBUTING.md) for more information.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## ❓ About
 
