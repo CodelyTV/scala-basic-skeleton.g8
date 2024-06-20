@@ -21,3 +21,6 @@ jobs:
 
       - name: 📦 Run Gitter to apply template
         run: sbt g8
+
+      - name: ✅ Run test from the generated template
+        run: sbt g8Test
