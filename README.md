@@ -157,7 +157,9 @@ If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.s
 
 See [the `LICENSE` file](LICENSE) for more information.
 
+## 🤝 Contributing
 
+See [the `CONTRIBUTING.md` file](CONTRIBUTING.md) for more information.
 
 ## ❓ About
 
