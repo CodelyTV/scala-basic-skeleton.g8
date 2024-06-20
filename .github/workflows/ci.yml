@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -18,9 +16,5 @@ jobs:
           distribution: 'zulu'
           java-version: '21'
           cache: 'sbt'
-
-      - name: 📦 Run Gitter to apply template
-        run: sbt g8
-
-      - name: ✅ Run test from the generated template
+      - name: ✅ Generate a project and run its test
         run: sbt g8Test
