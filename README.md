@@ -17,7 +17,7 @@
     <a href="https://pro.codely.com"><img src="https://img.shields.io/badge/Codely-Pro-black.svg?style=flat-square" alt="Codely Pro Courses"/></a>
     <a href="/LICENSE"><img src="https://img.shields.io/github/license/CodelyTV/scala-basic-skeleton.g8?style=flat-square" alt="License"/></a>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CodelyTV/scala-basic-skeleton.g8?style=flat-square">
-    <a href="https://github.com/CodelyTV/scala-basic-skeleton.g8/actions/workflows/ci.yml"><img src="https://github.com/CodelyTV/scala-basic-skeleton.g8/actions/workflows/ci.yml/badge.svg" alt="Continuous Integration status" /></a>
+    <a href="https://github.com/CodelyTV/scala-basic-skeleton.g8/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/CodelyTV/scala-basic-skeleton.g8/ci.yml?style=flat-square" alt="Continuous Integration status" /></a>
 </p>
 
 <p align="center">
