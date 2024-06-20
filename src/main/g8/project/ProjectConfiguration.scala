@@ -1,7 +1,6 @@
-import sbt.{Compile, Test, TestFrameworks, Tests, singleFileFinder, Configuration => _}
-import sbt.Keys.*
-import sbt.io.syntax.file
-
+import sbt.{Compile, Test, TestFrameworks, Tests, Configuration => _}
+import sbt.Keys._
+import sbt.io.syntax._
 
 object ProjectConfiguration {
    val settings = Seq(
