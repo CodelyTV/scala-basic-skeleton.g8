@@ -3,7 +3,7 @@ name := "$name$"
 version := "$version$"
 
 /** ********* PROJECT SETTINGS ******************/
-Configuration.settings
+ProjectConfiguration.settings
 
 /** ********* PROD DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
