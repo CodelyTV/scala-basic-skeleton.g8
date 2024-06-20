@@ -14,7 +14,7 @@ libraryDependencies ++= Seq(
 /** ********* TEST DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.18" % Test,
-  "org.scalamock" %% "scalamock" % "5.1.0" % Test
+  "org.scalamock" %% "scalamock" % "6.0.0" % Test
 )
 
 /** ********* COMMANDS ALIASES ******************/
