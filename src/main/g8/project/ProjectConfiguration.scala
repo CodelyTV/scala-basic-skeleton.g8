@@ -19,10 +19,9 @@ object ProjectConfiguration {
       "-unchecked", // More warnings. Strict
       "-Xlint", // More warnings when compiling
       "-Ywarn-dead-code",
-      "-Ywarn-unused",
-      "-Xcheckinit" // Check against early initialization
+      "-Ywarn-unused"
     ),
-    Compile / run / scalacOptions -= "-Xcheckinit", // Remove it in production because it's expensive
+    Test / scalacOptions += "-Xcheckinit", // Check against early initialization only in tests because it's expensive
     javaOptions += "-Duser.timezone=UTC",
 
     // Test options
