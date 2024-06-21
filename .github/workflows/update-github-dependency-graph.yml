@@ -1,0 +1,16 @@
+name: Update GitHub Dependency Graph
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: scalacenter/sbt-dependency-submission@v3
