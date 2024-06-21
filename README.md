@@ -16,7 +16,7 @@
     <a href="https://github.com/CodelyTV"><img src="https://img.shields.io/badge/Codely-OS-green.svg?style=flat-square" alt="Codely Open Source"/></a>
     <a href="https://pro.codely.com"><img src="https://img.shields.io/badge/Codely-Pro-black.svg?style=flat-square" alt="Codely Pro Courses"/></a>
     <a href="/LICENSE"><img src="https://img.shields.io/github/license/CodelyTV/scala-basic-skeleton.g8?style=flat-square" alt="License"/></a>
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CodelyTV/scala-basic-skeleton.g8?style=flat-square">
+    <a href="https://github.com/CodelyTV/scala-basic-skeleton.g8/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CodelyTV/scala-basic-skeleton.g8?style=flat-square"></a>
     <a href="https://github.com/CodelyTV/scala-basic-skeleton.g8/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/CodelyTV/scala-basic-skeleton.g8/ci.yml?style=flat-square" alt="Continuous Integration status" /></a>
 </p>
 
@@ -161,7 +161,7 @@ See [`LICENSE`](LICENSE).
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-## ❓ About
+## 🤔 About
 
 This hopefully helpful resource has been developed by [Codely](https://github.com/CodelyTV) and [contributors](https://github.com/CodelyTV/scala-basic-skeleton.g8/graphs/contributors).
 
