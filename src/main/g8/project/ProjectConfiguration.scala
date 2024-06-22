@@ -6,6 +6,8 @@ object ProjectConfiguration {
    val settings = Seq(
      organization := "$organization$",
      scalaVersion := "$scala_version$",
+    name                 := "$name$",
+    version              := "$version$",
 
     // Custom folders path (remove the `/scala` default subdirectory)
     Compile / scalaSource := file((baseDirectory.value / "src" / "main").toString),

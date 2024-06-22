@@ -1,7 +1,3 @@
-/** ********* PROJECT INFO ******************/
-name := "$name$"
-version := "$version$"
-
 /** ********* PROJECT SETTINGS ******************/
 ProjectConfiguration.settings
 
