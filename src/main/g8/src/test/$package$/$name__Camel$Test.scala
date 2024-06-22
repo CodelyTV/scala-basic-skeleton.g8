@@ -9,7 +9,7 @@ final class $name;format="Camel"$Test extends AnyWordSpec with Matchers {
       val $name;format="camel"$ = new $name;format="Camel"$
 
       val nameToGreet = "Codely"
-      val greeting = $name;format="camel"$.greet(nameToGreet)
+      val greeting    = $name;format="camel"$.greet(nameToGreet)
 
       greeting shouldBe "Hello " + nameToGreet
     }
