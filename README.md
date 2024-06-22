@@ -89,7 +89,7 @@ If you use macOS, we would recommend using SDKMAN! to manage different JDK versi
 - Opinions:
   - Configured to avoid the `scala/` default subdirectory because we don't want to split source code by programming language. That is, instead of having the `src/main/scala/` and `src/test/scala/` folders you will be able to code right in `src/main/` and `src/test/` ones.
   - [`.gitignore`](src/main/g8/.gitignore): Avoid including particular ignore rules for any specific IDE or OS. They must be included in [your global Git config](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files#configuring-ignored-files-for-all-repositories-on-your-computer) saving that noise from the project-specific rules.
-  - Include [SBT aliases for common tasks](src/main/g8/build.sbt). You will be able to run your tests with `t`, compile with `c`, or run all the tasks needed to execute before doing a Git push (compile source and test, and check source and test code style) with `prep`
+  - Include [SBT aliases for common tasks](src/main/g8/project/SbtAliases.scala). You will be able to run your tests with `t`, compile with `c`, or run all the tasks needed to execute before doing a Git push (compile source and test, and check source and test code style) with `prep`
 
 ## 🤽‍ Pre-push Git hook
 
