@@ -1,7 +1,7 @@
 lazy val root = (project in file("."))
   .settings(
     name := "Codely Scala Basic Skeleton",
-    version := "1.6.0",
+    version := "1.7.0",
 
     organization := "com.codely",
     organizationName := "Codely Enseña y Entretiene SL",
