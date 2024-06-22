@@ -2,7 +2,7 @@ import sbt.{Compile, Configuration => _, Test, TestFrameworks, Tests}
 import sbt.Keys._
 import sbt.io.syntax._
 
-object ProjectConfiguration {
+object Settings {
   val settings = Seq(
     name                 := "$name$",
     version              := "$version$",

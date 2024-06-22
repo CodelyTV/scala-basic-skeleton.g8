@@ -1,5 +1,4 @@
-/** ********* PROJECT SETTINGS ******************/
-ProjectConfiguration.settings
+Settings.settings
 
 /** ********* PROD DEPENDENCIES *****************/
 libraryDependencies ++= Seq(
