@@ -1,12 +1,10 @@
 # ✨ $name$
 
-[![License](https://img.shields.io/github/license/$organization$/$name;format="lower,snake"$?style=flat-square)](/LICENSE) 
+[![License](https://img.shields.io/github/license/$organization;format="dotReverse"$/$name;format="lower,hyphen"$?style=flat-square)](/LICENSE) 
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/$organization$/$name;format="lower,snake"$?style=flat-square)](https://github.com/$organization$/$name;format="lower,snake"$/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/$organization;format="dotReverse"$/$name;format="lower,hyphen"$?style=flat-square)](https://github.com/$organization;format="dotReverse"$/$name;format="lower,hyphen"$/stargazers)
 
-[![Continuous Integration status](https://img.shields.io/github/actions/workflow/status/$organization$/$name;format="lower,snake"$/ci.yml?style=flat-square)](https://github.com/$organization$/$name;format="lower,snake"$/actions/workflows/ci.yml)
-
-$description$
+[![Continuous Integration status](https://img.shields.io/github/actions/workflow/status/$organization;format="dotReverse"$/$name;format="lower,hyphen"$/ci.yml?style=flat-square)](https://github.com/$organization;format="dotReverse"$/$name;format="lower,hyphen"$/actions/workflows/ci.yml)
 
 ## 🚀 Environment setup
 
@@ -65,4 +63,4 @@ See [`LICENSE`](LICENSE).
 
 ## 🤔 About
 
-Project developed by $organization$ and bootstrapped with the [Codely Scala Basic Skeleton (powered by Giter 8)](https://github.com/CodelyTV/scala-basic-skeleton.g8).
+Project developed by [$organization_name$]($organization_homepage$) and bootstrapped with the [Codely Scala Basic Skeleton (powered by Giter 8)](https://github.com/CodelyTV/scala-basic-skeleton.g8).
