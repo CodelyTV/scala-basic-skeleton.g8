@@ -116,6 +116,7 @@ If you want to install this hook, just `cd doc/hooks` and run `./install-hooks.s
 #### 🧬 Scala repositories
 
 - [🌱 Scala Basic Skeleton (without Giter8)](https://github.com/CodelyTV/scala-basic-skeleton)
+- [🌟 Scala Spark Skeleton (powered by Giter 8)](https://github.com/CodelyTV/scala-spark-skeleton.g8)
 - [🎯 Scala DDD Example](https://github.com/CodelyTV/scala-ddd-example)
 
 #### ♨️ Java
