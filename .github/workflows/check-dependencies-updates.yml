@@ -1,0 +1,16 @@
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'
+
+name: 🍄 Check dependencies updates
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scala-steward:
+    runs-on: ubuntu-22.04
+    name: Check Scala project dependencies updates with Scala Steward
+    steps:
+      - uses: scala-steward-org/scala-steward-action@v2
