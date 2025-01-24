@@ -1,5 +1,6 @@
 package $package$
 
-final class $name;format="Camel"$ {
+final class $name;
+format = "Camel" $ {
   def greet(name: String): String = "Hello " + name
 }
